@@ -2,7 +2,7 @@
 include "template/head.php";
 include "template/nav.php";
 ?>
-dasdasdas
+Шеф, а я вас вижу!
 <?php
 include "template/footer.php";
 ?>
