@@ -1,6 +1,6 @@
 <?php
 include 'template/head.php';
-//include 'template/database.php';
+include 'template/database.php';
 include 'template/nav.php' 
 ?>
 </div>
@@ -23,22 +23,22 @@ include 'template/nav.php'
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#Usl">НАША ПРОДУКЦИЯ</a>
+          <a class="nav-link" href="technologist.php">НАША ПРОДУКЦИЯ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Usl">НАШИ ЗАКАЗЫ</a>
+          <a class="nav-link" href="manager.php">НАШ ДИРЕКТОР</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Usl">ДОСТАВКА</a>
+          <a class="nav-link" href="axpedit.php">ДОСТАВКА</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Usl">НАШИ СОТРУДНИКИ</a>
+          <a class="nav-link" href="stockman.php">НАШИ СОТРУДНИКИ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Acs">АКЦИИ И СПЕЦ ПРЕДЛОЖЕНИЯ</a>
+          <a class="nav-link" href="Acs">АКЦИИ И СПЕЦ ПРЕДЛОЖЕНИЯ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Con">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+          <a class="nav-link" href="Con">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
         </li>
        
       </ul>
@@ -46,7 +46,7 @@ include 'template/nav.php'
   </nav>
   
   <div class="zag"style="text-align:center;padding-top:30px;">
-  <h1>   Пекарня РОАНИВ-пекарня будущего! </h1><br>
+  <h1 style="color:red">   Пекарня РОАНИВ-пекарня будущего! </h1><br>
   </div>
   
               </div>
@@ -58,7 +58,7 @@ include 'template/nav.php'
               
                   <div class="container"style='width: 1600px;height: 250px;'>
         <div class="row">         
-     <h4>Мы работаем на результат:</h4>
+     <h4 style="color:red">Мы работаем на результат:</h4>
      <div class="col-lg-7">
         Пекарня РОАНИВ - это молодая и быстро развивающаяся<br> пекарня, которая предлагает большое количество <br> разнобразной продукции.</div><br>
   <div class="col-lg-5">
@@ -71,7 +71,7 @@ include 'template/nav.php'
       <div class="col-sm-5">
         <img src="img/7.jpg" alt="Иконка HTML5"style='width: 300px;height: 180px; padding-button: 20px '></div> <br>
         <div class="col-sm-7">    
- <h4>Доставка</h4>
+ <h4 style="color:red" >Доставка</h4>
       Доставка нашей продукции всегда радует клиентов!  </div> </div>   </div>  
 
  </div>
