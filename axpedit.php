@@ -3,7 +3,45 @@ include 'template/head.php';
 session_start();
 include 'template/database.php';
 include 'template/nav1.php';
-
+?>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: brown;width:1140px; margin-left:62px">
+      <div class="container-fluid">
+      
+       
+  </li>
+  <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+   <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">ГЛАВНАЯ</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="technologist.php">НАША ПРОДУКЦИЯ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="manager.php">НАШ ДИРЕКТОР</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="axpedit.php">ДОСТАВКА</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stockman.php">НАШИ СОТРУДНИКИ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Acs">АКЦИИ И СПЕЦ ПРЕДЛОЖЕНИЯ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Con">КОНТАКТЫ</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+  <?php
     //Если массив POST непустой, то добавить запись в базу  
     if (!empty($_POST)) 
 {
@@ -52,23 +90,23 @@ $result= $mysqli->query($sql);
     
     <form action='axpedit.php'method='POST'>
 <div class="form-element">
-<label>Наименование заказчика</label><br>
+<label style="color:red">Наименование заказчика</label><br>
 <input type="text" name="name" var="" required /> 
 </div> <br><br>
 <div class="form-element">
-<label for="pin">ИНН заказчика</label><br>
+<label style="color:red">ИНН заказчика</label><br>
 <input type="interger"name="pin"required />
 </div> <br><br>
 <div class="form-element">
-<label>Aдрес</label><br>
+<label style="color:red">Aдрес</label><br>
 <input type="text" name="address" required />
 </div> <br><br>
 <div class="form-element">
-<label>Наименование продукции</label><br>
+<label style="color:red">Наименование продукции</label><br>
 <input type="text" name="nameproduct" required />
 </div> <br><br>
 <div class="form-element">
-<label>Количество</label><br>
+<label style="color:red">Количество</label><br>
 <input type="quanity" name="quanity" required />
 </div> <br><br>
 

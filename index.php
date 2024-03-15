@@ -19,7 +19,7 @@ include 'template/nav.php'
    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#glav">ГЛАВНАЯ</a>
+          <a class="nav-link active" aria-current="page" href="index.php">ГЛАВНАЯ</a>
         </li>
         
         <li class="nav-item">
@@ -60,7 +60,7 @@ include 'template/nav.php'
         <div class="row">         
      <h4 style="color:red">Мы работаем на результат:</h4>
      <div class="col-lg-7">
-        Пекарня РОАНИВ - это молодая и быстро развивающаяся<br> пекарня, которая предлагает большое количество <br> разнобразной продукции.</div><br>
+     <p style="color:red">   Пекарня РОАНИВ - это молодая и быстро развивающаяся<br> пекарня, которая предлагает большое количество <br> разнобразной продукции.</div><br>
   <div class="col-lg-5">
    <img src="img/5.jpg" alt="Иконка HTML5"style='width: 300px;height: 159px; margin-bottom: 50px '></div></div></div>  <br>
    <marquee behavior="alternate" scrollamount="10" style="color: red; font-size: 40px; font-weight:bolder;line-height: 150%; text-shadow: #000000 0px 1px 1px;">    Пекарня РОАНИВ всегда с вами!</marquee> 
@@ -72,7 +72,7 @@ include 'template/nav.php'
         <img src="img/7.jpg" alt="Иконка HTML5"style='width: 300px;height: 180px; padding-button: 20px '></div> <br>
         <div class="col-sm-7">    
  <h4 style="color:red" >Доставка</h4>
-      Доставка нашей продукции всегда радует клиентов!  </div> </div>   </div>  
+ <p style="color:red"> Доставка нашей продукции всегда радует клиентов!  </div> </div>   </div>  
 
  </div>
 </div>
